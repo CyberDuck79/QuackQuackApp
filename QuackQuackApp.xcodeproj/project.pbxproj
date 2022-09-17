@@ -14,7 +14,7 @@
 		02C0A9E228D1EC8F00A4D23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C0A9E128D1EC8F00A4D23B /* Assets.xcassets */; };
 		02C0A9E528D1EC8F00A4D23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C0A9E328D1EC8F00A4D23B /* LaunchScreen.storyboard */; };
 		02C0A9EE28D4BF0C00A4D23B /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 02C0A9ED28D4BF0C00A4D23B /* SwiftySound */; };
-		02C0A9F028D4BF9600A4D23B /* quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02C0A9EF28D4BF9600A4D23B /* quack.mp3 */; };
+		02C0A9F228D5F37300A4D23B /* quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02C0A9F128D5F37300A4D23B /* quack.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		02C0A9E128D1EC8F00A4D23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C0A9E428D1EC8F00A4D23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02C0A9E628D1EC8F00A4D23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02C0A9EF28D4BF9600A4D23B /* quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = quack.mp3; path = ../../../../../Downloads/quack.mp3; sourceTree = "<group>"; };
+		02C0A9F128D5F37300A4D23B /* quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quack.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 		02C0A9D728D1EC8E00A4D23B /* app */ = {
 			isa = PBXGroup;
 			children = (
+				02C0A9F128D5F37300A4D23B /* quack.mp3 */,
 				02C0A9D828D1EC8E00A4D23B /* AppDelegate.swift */,
 				02C0A9DA28D1EC8E00A4D23B /* SceneDelegate.swift */,
 				02C0A9DC28D1EC8E00A4D23B /* ViewController.swift */,
 				02C0A9DE28D1EC8E00A4D23B /* Main.storyboard */,
 				02C0A9E128D1EC8F00A4D23B /* Assets.xcassets */,
-				02C0A9EF28D4BF9600A4D23B /* quack.mp3 */,
 				02C0A9E328D1EC8F00A4D23B /* LaunchScreen.storyboard */,
 				02C0A9E628D1EC8F00A4D23B /* Info.plist */,
 			);
@@ -136,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C0A9F228D5F37300A4D23B /* quack.mp3 in Resources */,
 				02C0A9E528D1EC8F00A4D23B /* LaunchScreen.storyboard in Resources */,
 				02C0A9E228D1EC8F00A4D23B /* Assets.xcassets in Resources */,
-				02C0A9F028D4BF9600A4D23B /* quack.mp3 in Resources */,
 				02C0A9E028D1EC8E00A4D23B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
