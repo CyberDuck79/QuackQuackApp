@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  I am poor
+//  QuackQuackApp
 //
 //  Created by Flavien Henrion on 14/09/2022.
 //

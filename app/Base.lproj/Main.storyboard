@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_am_poor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuackQuackApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KDh-xE-e7w">
-                                        <rect key="frame" x="0.0" y="259.33333333333331" width="393" height="240.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="261.66666666666669" width="393" height="236"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqc-iV-PKH">
                                                 <rect key="frame" x="99.333333333333329" y="0.0" width="194.66666666666669" height="184.66666666666666"/>
@@ -30,9 +30,9 @@
                                                     <action selector="duckButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A2g-S9-Oo3"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life is quacking..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zp-vo-wGM">
-                                                <rect key="frame" x="86.666666666666671" y="204.66666666666669" width="219.66666666666663" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life is quacking..." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zp-vo-wGM">
+                                                <rect key="frame" x="101.33333333333333" y="204.66666666666669" width="190.66666666666669" height="31.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
