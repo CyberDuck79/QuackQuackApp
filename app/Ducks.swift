@@ -135,7 +135,7 @@ class RiotDuck: Talkable {
         "Well...",
         "Apple don't!",
         "My previous behavior was censored!",
-        "it is a scandal!",
+        "It is a scandal!",
         "According to apple I was \"overtly s**ual\"",
         "I just like a lot when you touch me!",
         "I can't even express my joy of being gently touched?!",

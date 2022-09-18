@@ -18,10 +18,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let duckType = DuckType.allCases.randomElement()!
         duck = duckType.instanciate(controller: self)
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(appMovedToBackground), name: UIApplication.willResignActiveNotification, object: nil)
     }
 
     @IBAction func duckButton(_ sender: Any) {
         duck!.talk()
+    }
+    
+    @objc func appMovedToBackground() {
+        let duckType = DuckType.allCases.randomElement()!
+        duck = duckType.instanciate(controller: self)
     }
 }
 
